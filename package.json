@@ -1,0 +1,37 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "auth",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "tsc",
+    "dev": "nodemon -e ts --exec \"npm run start\""
+  },
+  "author": "Eduard Mikaelyan",
+  "license": "ISC",
+  "dependencies": {
+    "connect-pg-simple": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^12.0.1",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/connect-pg-simple": "^7.0.3",
+    "@types/dotenv": "^8.2.0",
+    "@types/koa": "^2.13.12",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-cors": "^0.0.6",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-session": "^6.4.5",
+    "@types/koa-static": "^4.0.4",
+    "@types/pg": "^8.10.9",
+    "nodemon": "^3.0.2",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  }
+}
